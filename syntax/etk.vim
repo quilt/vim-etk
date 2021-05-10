@@ -22,7 +22,7 @@ syntax keyword etkExpressionMacro selector contained
 syntax match etkInstructionMacro "%\(import\|include\|include_hex\|push\)\>"
 
 " Labels
-syntax match etkLabel "^:\i*$"
+syntax match etkLabel "^\i*:$"
 
 " Environment opcodes
 syntax keyword etkEnvOpcode
