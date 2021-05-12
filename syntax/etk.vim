@@ -68,7 +68,7 @@ syntax keyword etkCallOpcode
 
 " Push opcodes
 syntax match etkRegularOpcode
-	\ "\<push\(3[1-2]\|[0-9]\|[1-2][0-9]\)\>"
+	\ "\<push\(3[1-2]\|[1-9]\|[1-2][0-9]\)\>"
 	\ nextgroup=etkConstant,etkLabelConst,etkExpressionMacro
 	\ skipwhite
 
@@ -85,8 +85,8 @@ syntax match etkConstant	"\<0b[0-1]*\>"	contained
 syntax match etkConstant	"\<0o\o*\>"	contained
 
 " Regular opcodes
-syntax match etkRegularOpcode "\<swap\(1[0-6]\|[0-9]\)\>"
-syntax match etkRegularOpcode "\<dup\(1[0-6]\|[0-9]\)\>"
+syntax match etkRegularOpcode "\<swap\(1[0-6]\|[1-9]\)\>"
+syntax match etkRegularOpcode "\<dup\(1[0-6]\|[1-9]\)\>"
 syntax match etkRegularOpcode "\<log\([1-4]\)\>"
 
 syntax keyword etkRegularOpcode
