@@ -116,7 +116,7 @@ syntax keyword etkRegularOpcode
 	\ shl
 	\ shr
 	\ sar
-	\ sha3
+	\ keccak256
 	\ pop
 	\ mload
 	\ mstore
