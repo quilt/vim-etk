@@ -87,7 +87,7 @@ syntax match etkConstant	"\<0o\o*\>"	contained
 " Regular opcodes
 syntax match etkRegularOpcode "\<swap\(1[0-6]\|[1-9]\)\>"
 syntax match etkRegularOpcode "\<dup\(1[0-6]\|[1-9]\)\>"
-syntax match etkRegularOpcode "\<log\([1-4]\)\>"
+syntax match etkRegularOpcode "\<log\([0-4]\)\>"
 
 syntax keyword etkRegularOpcode
 	\ stop
