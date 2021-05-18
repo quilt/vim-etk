@@ -47,6 +47,7 @@ syntax keyword etkEnvOpcode
 	\ gaslimit
 	\ chainid
 	\ selfbalance
+	\ basefee
 
 " Trie opcodes
 syntax keyword etkTrieOpcode
