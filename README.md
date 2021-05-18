@@ -15,9 +15,7 @@ lines for popular package managers:
 * Pathogen
 	* `git clone https://github.com/quilt/vim-etk.git ~/.vim/bundle/vim-etk`
 * vim-plug
-	* `Plug 'quilt/vim-etk'`
-* Vundle
-	* `Plugin 'quilt/vim-etk'`
+	* `Plug 'quilt/vim-etk', { 'branch': 'main' }`
 
 ---
 
