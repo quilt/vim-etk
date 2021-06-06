@@ -10,7 +10,7 @@ endif
 syntax keyword etkTodos contained TODO XXX FIXME NOTE
 
 " Comment patterns
-syntax match etkComment ";.*$" contains=etkTodos
+syntax match etkComment "#.*$" contains=etkTodos
 
 " Single-line string 
 syntax region etkString start=/"/ skip=/\\\\\|\\"/ end=/"/ oneline
